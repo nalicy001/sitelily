@@ -1,0 +1,71 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+}
+
+.bg-custom{
+    background-color: white;
+}
+
+.navbar-collapse{
+    justify-content: right;
+}
+.me-2{
+    width: 40px;
+    margin-right: 1rem;
+}
+
+.custom-btn{
+    background-color: brown;
+    color: wheat;
+}
+
+.container-fluid{
+    display: flex;
+}
+.navbar .bg-custom{ 
+    border-color:black;
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card{
+    width: 100px;
+}
+.card-body{
+    background-color:white;
+    color: black;
+}
+
+.form-control{
+    display: grid;
+
+    place-items: center;
+ 
+
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:wheat ;
+    color: brown;
+}
